@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Playfair+Display+SC:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Amazing Animals</title>
+    <title class="title">Amazing Animals</title>
 </head>
 <body>
-    <nav>
+    <nav class="menu">
         <ul>
             <li><a href="#animals">Animals</a></li>
             <li><a href="#faq">Faq</a></li>
@@ -17,7 +20,7 @@
     </nav>
     <section class="grid-section animals" id="animals">
         <h1 class="title">Amazing Animals</h1>
-        <ul>
+        <ul class="animals-list">
             <li>
                 <img src="img/image1.jpg">
             </li>
@@ -37,7 +40,7 @@
                 <img src="img/image6.jpg">
             </li>
         </ul>
-        <div class="animals-descirption">
+        <div class="animals-description">
             <section>
                 <h2>Fox</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere fuga fugiat cumque ea aperiam nostrum sunt explicabo autem sed asperiores officiis, corrupti amet error accusamus?</p>
@@ -83,13 +86,33 @@
         </div>
     </section>
     <section class="grid-section faq" id="faq">
-        <h1>FAQ</h1>
-        <dl>
-            <dt></dt>
-            <dd></dd>
+        <h1 class="title">FAQ</h1>
+        <dl class="faq-list">
+            <dt>What's the animals age?</dt>
+            <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius recusandae illo molestiae quasi, enim alias aliquam eum voluptates delectus quisquam!</dd>
+            <dt>Are they amazing?</dt>
+            <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius recusandae illo molestiae quasi, enim alias aliquam eum voluptates delectus quisquam!</dd>
+            <dt>What's the difference?</dt>
+            <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius recusandae illo molestiae quasi, enim alias aliquam eum voluptates delectus quisquam!</dd>
+            <dt>How to protect?</dt>
+            <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius recusandae illo molestiae quasi, enim alias aliquam eum voluptates delectus quisquam!</dd>
         </dl>
-
     </section>
+    <section class="grid-section contact" id="contact">
+        <h1 class="title">Contact</h1>
+        <div class="map">
+            <img src="img/map.png">
+        </div>
+        <ul class="data">
+            <li>ibanetoni@gmail.com</li>
+            <li>+55 (11) 96345-7405</li>
+            <li>São Paulo - SP</li>
+        </ul>
+    </section>
+
+    <footer class="copy">
+        <p>All rights reserved.</p>
+    </footer>
     
     <script src="script.js"></script>
 </body>
